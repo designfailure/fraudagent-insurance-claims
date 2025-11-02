@@ -1,0 +1,26 @@
+# KumoRFM Insurance Claims AI Agent - Dependencies
+# Python 3.9+ required
+
+# Core ML and Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=12.0.0  # For parquet support
+
+# KumoRFM SDK
+kumoai>=2.7.0
+
+# OpenAI API
+openai>=1.12.0
+
+# Gradio UI
+gradio>=4.0.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+
+# Optional: Visualization
+matplotlib>=3.7.0
+plotly>=5.14.0
+
+# Optional: Data validation
+jsonschema>=4.17.0
